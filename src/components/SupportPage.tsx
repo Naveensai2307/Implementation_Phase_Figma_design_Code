@@ -160,7 +160,7 @@ export function SupportPage({ user, onBack, onNavigate }) {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      <div className="w-full max-w-4xl mx-auto bg-white min-h-screen pb-20">
+  <div className="w-full mx-auto bg-white min-h-screen pb-20">
         {/* Header */}
         <div className="flex items-center justify-between p-4 lg:p-6 border-b border-gray-100">
           <button onClick={onBack} className="hover:bg-gray-100 p-2 rounded-lg transition-colors">
